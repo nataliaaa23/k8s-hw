@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pairs-merge
+  namespace: lab
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: pairs
+          image: hh-pairs:1.0
+          imagePullPolicy: Never
+          args: ["merge", "--parts", "12"]
+          env:
+            - name: S3_ENDPOINT
+              value: "http://rustfs:9000"
+          resources:
+            requests:
+              cpu: 250m
+              memory: 160Mi
+            limits:
+              cpu: "1"
+              memory: 208Mi

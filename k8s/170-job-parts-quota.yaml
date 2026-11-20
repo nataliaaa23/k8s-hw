@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pairs-parts-quota
+  namespace: quota-lab
+spec:
+  completionMode: Indexed
+  completions: 12
+  parallelism: 4
+  backoffLimit: 4
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: pairs
+          image: hh-pairs:1.0
+          imagePullPolicy: Never
+          args: ["part"]
+          env:
+            - name: S3_ENDPOINT
+              value: "http://rustfs.lab.svc.cluster.local:9000"
+          resources:
+            requests:
+              cpu: 250m
+              memory: 160Mi
+            limits:
+              cpu: "1"
+              memory: 208Mi

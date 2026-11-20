@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: high-prio
+  namespace: lab
+  labels:
+    demo: prio
+spec:
+  restartPolicy: Never
+  priorityClassName: high-priority
+  terminationGracePeriodSeconds: 1
+  containers:
+    - name: sleeper
+      image: hh-pairs:1.0
+      imagePullPolicy: Never
+      command: ["sleep", "3600"]
+      resources:
+        requests:
+          cpu: 1500m
+          memory: 64Mi
+        limits:
+          cpu: 1500m
+          memory: 64Mi

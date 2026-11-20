@@ -1,0 +1,72 @@
+﻿[pod/pairs-parts-4-qhml8/pairs] [19:28:28] часть 4 из 12: байты 282539907..353176471
+[pod/pairs-parts-4-qhml8/pairs] [19:28:30] записей 19514, вакансий варианта 1745, с навыками 1088, битых строк 0, чанков 9
+[pod/pairs-parts-4-qhml8/pairs] [19:28:30] загружено в s3://hh-lake/results/k8s/parts/part-4.json
+[pod/pairs-parts-4-qhml8/pairs] [19:28:30] время части: 1.5 с
+[pod/pairs-parts-4-qhml8/pairs] [19:28:30] пик памяти процесса (ru_maxrss): 130.0 МиБ
+[pod/pairs-parts-4-qhml8/pairs] [19:28:30] пик памяти контейнера (cgroup memory.peak): 128.9 МиБ
+[pod/pairs-parts-6-l6kr9/pairs] [19:28:29] часть 6 из 12: байты 423810887..494447140
+[pod/pairs-parts-6-l6kr9/pairs] [19:28:30] записей 19003, вакансий варианта 983, с навыками 585, битых строк 0, чанков 9
+[pod/pairs-parts-6-l6kr9/pairs] [19:28:30] загружено в s3://hh-lake/results/k8s/parts/part-6.json
+[pod/pairs-parts-6-l6kr9/pairs] [19:28:30] время части: 1.5 с
+[pod/pairs-parts-6-l6kr9/pairs] [19:28:30] пик памяти процесса (ru_maxrss): 148.8 МиБ
+[pod/pairs-parts-6-l6kr9/pairs] [19:28:30] пик памяти контейнера (cgroup memory.peak): 142.1 МиБ
+[pod/pairs-parts-7-4mggs/pairs] [19:28:29] часть 7 из 12: байты 494447140..565082528
+[pod/pairs-parts-7-4mggs/pairs] [19:28:30] записей 19460, вакансий варианта 2108, с навыками 1430, битых строк 0, чанков 9
+[pod/pairs-parts-7-4mggs/pairs] [19:28:30] загружено в s3://hh-lake/results/k8s/parts/part-7.json
+[pod/pairs-parts-7-4mggs/pairs] [19:28:30] время части: 1.6 с
+[pod/pairs-parts-7-4mggs/pairs] [19:28:30] пик памяти процесса (ru_maxrss): 140.6 МиБ
+[pod/pairs-parts-7-4mggs/pairs] [19:28:30] пик памяти контейнера (cgroup memory.peak): 132.9 МиБ
+[pod/pairs-parts-0-4tz9q/pairs] [19:28:23] часть 0 из 12: байты 0..70635592
+[pod/pairs-parts-0-4tz9q/pairs] [19:28:25] записей 19042, вакансий варианта 1711, с навыками 1050, битых строк 0, чанков 9
+[pod/pairs-parts-0-4tz9q/pairs] [19:28:25] загружено в s3://hh-lake/results/k8s/parts/part-0.json
+[pod/pairs-parts-0-4tz9q/pairs] [19:28:25] время части: 1.6 с
+[pod/pairs-parts-0-4tz9q/pairs] [19:28:25] пик памяти процесса (ru_maxrss): 148.7 МиБ
+[pod/pairs-parts-0-4tz9q/pairs] [19:28:25] пик памяти контейнера (cgroup memory.peak): 141.7 МиБ
+[pod/pairs-parts-3-g8gmh/pairs] [19:28:23] часть 3 из 12: байты 211909622..282539907
+[pod/pairs-parts-3-g8gmh/pairs] [19:28:24] записей 19142, вакансий варианта 1659, с навыками 1023, битых строк 0, чанков 9
+[pod/pairs-parts-3-g8gmh/pairs] [19:28:24] загружено в s3://hh-lake/results/k8s/parts/part-3.json
+[pod/pairs-parts-3-g8gmh/pairs] [19:28:24] время части: 1.6 с
+[pod/pairs-parts-3-g8gmh/pairs] [19:28:24] пик памяти процесса (ru_maxrss): 146.1 МиБ
+[pod/pairs-parts-3-g8gmh/pairs] [19:28:24] пик памяти контейнера (cgroup memory.peak): 141.2 МиБ
+[pod/pairs-parts-5-mwbpl/pairs] [19:28:28] часть 5 из 12: байты 353176471..423810887
+[pod/pairs-parts-5-mwbpl/pairs] [19:28:30] записей 19169, вакансий варианта 1011, с навыками 664, битых строк 0, чанков 9
+[pod/pairs-parts-5-mwbpl/pairs] [19:28:30] загружено в s3://hh-lake/results/k8s/parts/part-5.json
+[pod/pairs-parts-5-mwbpl/pairs] [19:28:30] время части: 1.4 с
+[pod/pairs-parts-5-mwbpl/pairs] [19:28:30] пик памяти процесса (ru_maxrss): 130.9 МиБ
+[pod/pairs-parts-5-mwbpl/pairs] [19:28:30] пик памяти контейнера (cgroup memory.peak): 125.2 МиБ
+[pod/pairs-parts-8-xr7wr/pairs] [19:28:34] часть 8 из 12: байты 565082528..635715091
+[pod/pairs-parts-8-xr7wr/pairs] [19:28:35] записей 18896, вакансий варианта 2247, с навыками 1443, битых строк 0, чанков 9
+[pod/pairs-parts-8-xr7wr/pairs] [19:28:35] загружено в s3://hh-lake/results/k8s/parts/part-8.json
+[pod/pairs-parts-8-xr7wr/pairs] [19:28:35] время части: 1.7 с
+[pod/pairs-parts-8-xr7wr/pairs] [19:28:35] пик памяти процесса (ru_maxrss): 146.3 МиБ
+[pod/pairs-parts-8-xr7wr/pairs] [19:28:35] пик памяти контейнера (cgroup memory.peak): 139.6 МиБ
+[pod/pairs-parts-9-z56zc/pairs] [19:28:34] часть 9 из 12: байты 635715091..706350437
+[pod/pairs-parts-9-z56zc/pairs] [19:28:35] записей 18988, вакансий варианта 2036, с навыками 1328, битых строк 0, чанков 9
+[pod/pairs-parts-9-z56zc/pairs] [19:28:35] загружено в s3://hh-lake/results/k8s/parts/part-9.json
+[pod/pairs-parts-9-z56zc/pairs] [19:28:35] время части: 1.7 с
+[pod/pairs-parts-9-z56zc/pairs] [19:28:35] пик памяти процесса (ru_maxrss): 146.4 МиБ
+[pod/pairs-parts-9-z56zc/pairs] [19:28:35] пик памяти контейнера (cgroup memory.peak): 139.6 МиБ
+[pod/pairs-parts-1-r5ctq/pairs] [19:28:23] часть 1 из 12: байты 70635592..141271832
+[pod/pairs-parts-1-r5ctq/pairs] [19:28:24] записей 19187, вакансий варианта 1616, с навыками 946, битых строк 0, чанков 9
+[pod/pairs-parts-1-r5ctq/pairs] [19:28:24] загружено в s3://hh-lake/results/k8s/parts/part-1.json
+[pod/pairs-parts-1-r5ctq/pairs] [19:28:24] время части: 1.6 с
+[pod/pairs-parts-1-r5ctq/pairs] [19:28:24] пик памяти процесса (ru_maxrss): 146.3 МиБ
+[pod/pairs-parts-1-r5ctq/pairs] [19:28:24] пик памяти контейнера (cgroup memory.peak): 141.4 МиБ
+[pod/pairs-parts-10-2rf2f/pairs] [19:28:34] часть 10 из 12: байты 706350437..776988017
+[pod/pairs-parts-10-2rf2f/pairs] [19:28:35] записей 18713, вакансий варианта 2013, с навыками 1356, битых строк 0, чанков 9
+[pod/pairs-parts-10-2rf2f/pairs] [19:28:35] загружено в s3://hh-lake/results/k8s/parts/part-10.json
+[pod/pairs-parts-10-2rf2f/pairs] [19:28:35] время части: 1.7 с
+[pod/pairs-parts-10-2rf2f/pairs] [19:28:35] пик памяти процесса (ru_maxrss): 147.7 МиБ
+[pod/pairs-parts-10-2rf2f/pairs] [19:28:35] пик памяти контейнера (cgroup memory.peak): 142.7 МиБ
+[pod/pairs-parts-11-mc2hj/pairs] [19:28:34] часть 11 из 12: байты 776988017..847619384
+[pod/pairs-parts-11-mc2hj/pairs] [19:28:35] записей 18743, вакансий варианта 2046, с навыками 1414, битых строк 0, чанков 9
+[pod/pairs-parts-11-mc2hj/pairs] [19:28:35] загружено в s3://hh-lake/results/k8s/parts/part-11.json
+[pod/pairs-parts-11-mc2hj/pairs] [19:28:35] время части: 1.8 с
+[pod/pairs-parts-11-mc2hj/pairs] [19:28:35] пик памяти процесса (ru_maxrss): 146.3 МиБ
+[pod/pairs-parts-11-mc2hj/pairs] [19:28:35] пик памяти контейнера (cgroup memory.peak): 142.3 МиБ
+[pod/pairs-parts-2-zlfw6/pairs] [19:28:23] часть 2 из 12: байты 141271832..211909622
+[pod/pairs-parts-2-zlfw6/pairs] [19:28:24] записей 19531, вакансий варианта 1778, с навыками 1125, битых строк 0, чанков 9
+[pod/pairs-parts-2-zlfw6/pairs] [19:28:24] загружено в s3://hh-lake/results/k8s/parts/part-2.json
+[pod/pairs-parts-2-zlfw6/pairs] [19:28:24] время части: 1.6 с
+[pod/pairs-parts-2-zlfw6/pairs] [19:28:24] пик памяти процесса (ru_maxrss): 146.6 МиБ
+[pod/pairs-parts-2-zlfw6/pairs] [19:28:24] пик памяти контейнера (cgroup memory.peak): 139.1 МиБ

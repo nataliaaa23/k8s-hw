@@ -1,0 +1,99 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rustfs-data
+  namespace: lab
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 6Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rustfs
+  namespace: lab
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: rustfs
+  template:
+    metadata:
+      labels:
+        app: rustfs
+    spec:
+      securityContext:
+        runAsUser: 0
+      containers:
+        - name: rustfs
+          image: rustfs/rustfs:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9000
+            - containerPort: 9001
+          env:
+            - name: RUSTFS_ADDRESS
+              value: ":9000"
+            - name: RUSTFS_CONSOLE_ENABLE
+              value: "true"
+            - name: RUSTFS_CONSOLE_ADDRESS
+              value: ":9001"
+            - name: RUSTFS_ACCESS_KEY
+              value: rustfsadmin
+            - name: RUSTFS_SECRET_KEY
+              value: rustfsadmin
+            - name: RUSTFS_UNSAFE_BYPASS_DISK_CHECK
+              value: "true"
+            - name: RUSTFS_VOLUMES
+              value: /data/rustfs{0...3}
+            - name: RUSTFS_OBS_LOGGER_LEVEL
+              value: warn
+          volumeMounts:
+            - name: data
+              mountPath: /data/rustfs0
+              subPath: rustfs0
+            - name: data
+              mountPath: /data/rustfs1
+              subPath: rustfs1
+            - name: data
+              mountPath: /data/rustfs2
+              subPath: rustfs2
+            - name: data
+              mountPath: /data/rustfs3
+              subPath: rustfs3
+          readinessProbe:
+            tcpSocket:
+              port: 9000
+            initialDelaySeconds: 5
+            periodSeconds: 5
+          resources:
+            requests:
+              cpu: 250m
+              memory: 256Mi
+            limits:
+              cpu: "2"
+              memory: 1Gi
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: rustfs-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rustfs
+  namespace: lab
+spec:
+  selector:
+    app: rustfs
+  ports:
+    - name: s3
+      port: 9000
+      targetPort: 9000
+    - name: console
+      port: 9001
+      targetPort: 9001

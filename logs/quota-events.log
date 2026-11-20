@@ -1,0 +1,70 @@
+﻿LAST SEEN   TYPE      REASON             OBJECT                           MESSAGE
+37s         Normal    Pulled             pod/pairs-parts-quota-0-xn66x    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+37s         Normal    Created            pod/pairs-parts-quota-0-xn66x    Container created
+37s         Normal    Started            pod/pairs-parts-quota-0-xn66x    Container started
+37s         Normal    Scheduled          pod/pairs-parts-quota-1-4jp84    Successfully assigned quota-lab/pairs-parts-quota-1-4jp84 to minikube
+37s         Normal    Pulled             pod/pairs-parts-quota-1-4jp84    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+37s         Normal    Created            pod/pairs-parts-quota-1-4jp84    Container created
+37s         Normal    Started            pod/pairs-parts-quota-1-4jp84    Container started
+37s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-0-xn66x
+37s         Normal    Scheduled          pod/pairs-parts-quota-0-xn66x    Successfully assigned quota-lab/pairs-parts-quota-0-xn66x to minikube
+37s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-2-6k6kq" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+37s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-1-4jp84
+36s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-2-l9vrj" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+35s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-2-mtnfq" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+34s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-2-q4qqc" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+33s         Normal    Scheduled          pod/pairs-parts-quota-4-qnzhc    Successfully assigned quota-lab/pairs-parts-quota-4-qnzhc to minikube
+33s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-2-zp6tc
+33s         Normal    Scheduled          pod/pairs-parts-quota-2-zp6tc    Successfully assigned quota-lab/pairs-parts-quota-2-zp6tc to minikube
+33s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-3-fntrc" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+33s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-4-qnzhc
+32s         Normal    Pulled             pod/pairs-parts-quota-2-zp6tc    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+32s         Normal    Created            pod/pairs-parts-quota-4-qnzhc    Container created
+32s         Normal    Created            pod/pairs-parts-quota-2-zp6tc    Container created
+32s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-3-t52ck" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+32s         Normal    Started            pod/pairs-parts-quota-4-qnzhc    Container started
+32s         Normal    Started            pod/pairs-parts-quota-2-zp6tc    Container started
+32s         Normal    Pulled             pod/pairs-parts-quota-4-qnzhc    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+31s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-3-2g79j" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+29s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-3-c9wqm" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+28s         Normal    Scheduled          pod/pairs-parts-quota-3-24c2j    Successfully assigned quota-lab/pairs-parts-quota-3-24c2j to minikube
+28s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-3-24c2j
+28s         Warning   FailedCreate       job/pairs-parts-quota            Error creating: pods "pairs-parts-quota-5-xsr8s" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+28s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-6-74j44
+28s         Normal    Scheduled          pod/pairs-parts-quota-6-74j44    Successfully assigned quota-lab/pairs-parts-quota-6-74j44 to minikube
+27s         Normal    Created            pod/pairs-parts-quota-6-74j44    Container created
+27s         Normal    Started            pod/pairs-parts-quota-6-74j44    Container started
+27s         Normal    Pulled             pod/pairs-parts-quota-6-74j44    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+27s         Normal    Pulled             pod/pairs-parts-quota-3-24c2j    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+27s         Normal    Created            pod/pairs-parts-quota-3-24c2j    Container created
+27s         Normal    Started            pod/pairs-parts-quota-3-24c2j    Container started
+23s         Normal    Scheduled          pod/pairs-parts-quota-5-h4826    Successfully assigned quota-lab/pairs-parts-quota-5-h4826 to minikube
+23s         Normal    Scheduled          pod/pairs-parts-quota-7-n2bkm    Successfully assigned quota-lab/pairs-parts-quota-7-n2bkm to minikube
+23s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-7-n2bkm
+23s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-5-h4826
+22s         Normal    Pulled             pod/pairs-parts-quota-7-n2bkm    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+22s         Normal    Pulled             pod/pairs-parts-quota-5-h4826    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+22s         Normal    Created            pod/pairs-parts-quota-5-h4826    Container created
+22s         Normal    Started            pod/pairs-parts-quota-5-h4826    Container started
+22s         Normal    Started            pod/pairs-parts-quota-7-n2bkm    Container started
+22s         Normal    Created            pod/pairs-parts-quota-7-n2bkm    Container created
+18s         Normal    Scheduled          pod/pairs-parts-quota-10-bzjvw   Successfully assigned quota-lab/pairs-parts-quota-10-bzjvw to minikube
+18s         Normal    Scheduled          pod/pairs-parts-quota-8-fqnbg    Successfully assigned quota-lab/pairs-parts-quota-8-fqnbg to minikube
+18s         Normal    SuccessfulCreate   job/pairs-parts-quota            Created pod: pairs-parts-quota-8-fqnbg
+17s         Normal    Created            pod/pairs-parts-quota-8-fqnbg    Container created
+17s         Normal    Created            pod/pairs-parts-quota-10-bzjvw   Container created
+17s         Normal    Pulled             pod/pairs-parts-quota-10-bzjvw   Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+17s         Normal    Pulled             pod/pairs-parts-quota-8-fqnbg    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+17s         Normal    Started            pod/pairs-parts-quota-10-bzjvw   Container started
+17s         Normal    Started            pod/pairs-parts-quota-8-fqnbg    Container started
+14s         Warning   FailedCreate       job/pairs-parts-quota            (combined from similar events): Error creating: pods "pairs-parts-quota-9-vt5g8" is forbidden: exceeded quota: compute-quota, requested: limits.cpu=1,requests.memory=160Mi, used: limits.cpu=2,requests.memory=320Mi, limited: limits.cpu=2,requests.memory=400Mi
+13s         Normal    Scheduled          pod/pairs-parts-quota-9-plpkj    Successfully assigned quota-lab/pairs-parts-quota-9-plpkj to minikube
+12s         Normal    Started            pod/pairs-parts-quota-9-plpkj    Container started
+12s         Normal    Pulled             pod/pairs-parts-quota-9-plpkj    Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+12s         Normal    Created            pod/pairs-parts-quota-11-kpf92   Container created
+12s         Normal    Created            pod/pairs-parts-quota-9-plpkj    Container created
+12s         Normal    Started            pod/pairs-parts-quota-11-kpf92   Container started
+12s         Normal    Scheduled          pod/pairs-parts-quota-11-kpf92   Successfully assigned quota-lab/pairs-parts-quota-11-kpf92 to minikube
+12s         Normal    Pulled             pod/pairs-parts-quota-11-kpf92   Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+12s         Normal    SuccessfulCreate   job/pairs-parts-quota            (combined from similar events): Created pod: pairs-parts-quota-11-kpf92
+7s          Normal    Completed          job/pairs-parts-quota            Job completed

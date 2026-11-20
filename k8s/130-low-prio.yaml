@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: low-prio
+  namespace: lab
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: low-prio
+  template:
+    metadata:
+      labels:
+        app: low-prio
+        demo: prio
+    spec:
+      priorityClassName: low-priority
+      terminationGracePeriodSeconds: 1
+      containers:
+        - name: sleeper
+          image: hh-pairs:1.0
+          imagePullPolicy: Never
+          command: ["sleep", "3600"]
+          resources:
+            requests:
+              cpu: 1200m
+              memory: 64Mi
+            limits:
+              cpu: 1200m
+              memory: 64Mi

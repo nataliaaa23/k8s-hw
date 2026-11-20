@@ -1,0 +1,130 @@
+﻿LAST SEEN   TYPE      REASON                  OBJECT                              MESSAGE
+25m         Normal    Pulled                  pod/pairs-below-c82fj               Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+25m         Normal    Created                 pod/pairs-below-c82fj               Container created
+25m         Normal    Scheduled               pod/pairs-below-c82fj               Successfully assigned lab/pairs-below-c82fj to minikube
+25m         Normal    Started                 pod/pairs-below-c82fj               Container started
+25m         Normal    SuccessfulCreate        job/pairs-below                     Created pod: pairs-below-c82fj
+25m         Normal    SuccessfulCreate        job/pairs-tuned                     Created pod: pairs-tuned-xxnmb
+25m         Normal    Scheduled               pod/pairs-tuned-xxnmb               Successfully assigned lab/pairs-tuned-xxnmb to minikube
+25m         Normal    Pulled                  pod/pairs-tuned-xxnmb               Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+25m         Normal    Created                 pod/pairs-tuned-xxnmb               Container created
+25m         Normal    Started                 pod/pairs-tuned-xxnmb               Container started
+24m         Warning   BackoffLimitExceeded    job/pairs-below                     Job has reached the specified backoff limit
+23m         Normal    Completed               job/pairs-tuned                     Job completed
+16m         Normal    ExternalProvisioning    persistentvolumeclaim/rustfs-data   Waiting for a volume to be created either by the external provisioner 'k8s.io/minikube-hostpath' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+16m         Normal    Provisioning            persistentvolumeclaim/rustfs-data   External provisioner is provisioning volume for claim "lab/rustfs-data"
+16m         Normal    ProvisioningSucceeded   persistentvolumeclaim/rustfs-data   Successfully provisioned volume pvc-45d58844-4c2e-4160-a292-0cf012d86146
+13m         Normal    Started                 pod/rustfs-5dfdb95484-ls89h         Container started
+13m         Normal    Scheduled               pod/rustfs-5dfdb95484-ls89h         Successfully assigned lab/rustfs-5dfdb95484-ls89h to minikube
+13m         Normal    Pulled                  pod/rustfs-5dfdb95484-ls89h         Container image "rustfs/rustfs:latest" already present on machine and can be accessed by the pod
+13m         Normal    Created                 pod/rustfs-5dfdb95484-ls89h         Container created
+13m         Normal    SuccessfulCreate        replicaset/rustfs-5dfdb95484        Created pod: rustfs-5dfdb95484-ls89h
+13m         Normal    ScalingReplicaSet       deployment/rustfs                   Scaled up replica set rustfs-5dfdb95484 from 0 to 1
+11m         Normal    SuccessfulCreate        job/pairs-incluster                 Created pod: pairs-incluster-j88md
+11m         Normal    Created                 pod/pairs-incluster-j88md           Container created
+11m         Normal    Pulled                  pod/pairs-incluster-j88md           Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+11m         Normal    Scheduled               pod/pairs-incluster-j88md           Successfully assigned lab/pairs-incluster-j88md to minikube
+11m         Normal    Started                 pod/pairs-incluster-j88md           Container started
+11m         Normal    Completed               job/pairs-incluster                 Job completed
+8m41s       Normal    Created                 pod/pairs-plan-cwndl                Container created
+8m41s       Normal    Scheduled               pod/pairs-plan-cwndl                Successfully assigned lab/pairs-plan-cwndl to minikube
+8m41s       Normal    SuccessfulCreate        job/pairs-plan                      Created pod: pairs-plan-cwndl
+8m41s       Normal    Started                 pod/pairs-plan-cwndl                Container started
+8m41s       Normal    Pulled                  pod/pairs-plan-cwndl                Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+8m34s       Normal    Completed               job/pairs-plan                      Job completed
+4m40s       Normal    Created                 pod/pairs-parts-3-g8gmh             Container created
+4m40s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-1-r5ctq
+4m40s       Normal    Scheduled               pod/pairs-parts-3-g8gmh             Successfully assigned lab/pairs-parts-3-g8gmh to minikube
+4m40s       Normal    Started                 pod/pairs-parts-2-zlfw6             Container started
+4m40s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-2-zlfw6
+4m40s       Normal    Started                 pod/pairs-parts-3-g8gmh             Container started
+4m40s       Normal    Created                 pod/pairs-parts-2-zlfw6             Container created
+4m40s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-3-g8gmh
+4m40s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-0-4tz9q
+4m40s       Normal    Pulled                  pod/pairs-parts-3-g8gmh             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m40s       Normal    Pulled                  pod/pairs-parts-2-zlfw6             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m40s       Normal    Scheduled               pod/pairs-parts-2-zlfw6             Successfully assigned lab/pairs-parts-2-zlfw6 to minikube
+4m40s       Normal    Started                 pod/pairs-parts-1-r5ctq             Container started
+4m40s       Normal    Created                 pod/pairs-parts-1-r5ctq             Container created
+4m40s       Normal    Pulled                  pod/pairs-parts-1-r5ctq             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m40s       Normal    Scheduled               pod/pairs-parts-1-r5ctq             Successfully assigned lab/pairs-parts-1-r5ctq to minikube
+4m40s       Normal    Scheduled               pod/pairs-parts-0-4tz9q             Successfully assigned lab/pairs-parts-0-4tz9q to minikube
+4m39s       Normal    Started                 pod/pairs-parts-0-4tz9q             Container started
+4m39s       Normal    Pulled                  pod/pairs-parts-0-4tz9q             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m39s       Normal    Created                 pod/pairs-parts-0-4tz9q             Container created
+4m35s       Normal    Scheduled               pod/pairs-parts-6-l6kr9             Successfully assigned lab/pairs-parts-6-l6kr9 to minikube
+4m35s       Normal    Scheduled               pod/pairs-parts-7-4mggs             Successfully assigned lab/pairs-parts-7-4mggs to minikube
+4m35s       Normal    Scheduled               pod/pairs-parts-4-qhml8             Successfully assigned lab/pairs-parts-4-qhml8 to minikube
+4m35s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-4-qhml8
+4m35s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-6-l6kr9
+4m35s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-5-mwbpl
+4m35s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-7-4mggs
+4m35s       Normal    Scheduled               pod/pairs-parts-5-mwbpl             Successfully assigned lab/pairs-parts-5-mwbpl to minikube
+4m34s       Normal    Created                 pod/pairs-parts-5-mwbpl             Container created
+4m34s       Normal    Pulled                  pod/pairs-parts-7-4mggs             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m34s       Normal    Pulled                  pod/pairs-parts-6-l6kr9             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m34s       Normal    Pulled                  pod/pairs-parts-5-mwbpl             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m34s       Normal    Started                 pod/pairs-parts-5-mwbpl             Container started
+4m34s       Normal    Started                 pod/pairs-parts-4-qhml8             Container started
+4m34s       Normal    Created                 pod/pairs-parts-6-l6kr9             Container created
+4m34s       Normal    Created                 pod/pairs-parts-4-qhml8             Container created
+4m34s       Normal    Started                 pod/pairs-parts-6-l6kr9             Container started
+4m34s       Normal    Pulled                  pod/pairs-parts-4-qhml8             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m34s       Normal    Started                 pod/pairs-parts-7-4mggs             Container started
+4m34s       Normal    Created                 pod/pairs-parts-7-4mggs             Container created
+4m30s       Normal    Scheduled               pod/pairs-parts-8-xr7wr             Successfully assigned lab/pairs-parts-8-xr7wr to minikube
+4m30s       Normal    Scheduled               pod/pairs-parts-10-2rf2f            Successfully assigned lab/pairs-parts-10-2rf2f to minikube
+4m30s       Normal    SuccessfulCreate        job/pairs-parts                     Created pod: pairs-parts-8-xr7wr
+4m30s       Normal    Scheduled               pod/pairs-parts-9-z56zc             Successfully assigned lab/pairs-parts-9-z56zc to minikube
+4m29s       Normal    Created                 pod/pairs-parts-11-mc2hj            Container created
+4m29s       Normal    Pulled                  pod/pairs-parts-8-xr7wr             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m29s       Normal    Started                 pod/pairs-parts-9-z56zc             Container started
+4m29s       Normal    Pulled                  pod/pairs-parts-11-mc2hj            Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m29s       Normal    Scheduled               pod/pairs-parts-11-mc2hj            Successfully assigned lab/pairs-parts-11-mc2hj to minikube
+4m29s       Normal    Started                 pod/pairs-parts-10-2rf2f            Container started
+4m29s       Normal    Created                 pod/pairs-parts-10-2rf2f            Container created
+4m29s       Normal    Pulled                  pod/pairs-parts-10-2rf2f            Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m29s       Normal    SuccessfulCreate        job/pairs-parts                     (combined from similar events): Created pod: pairs-parts-11-mc2hj
+4m29s       Normal    Created                 pod/pairs-parts-9-z56zc             Container created
+4m29s       Normal    Pulled                  pod/pairs-parts-9-z56zc             Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+4m29s       Normal    Started                 pod/pairs-parts-8-xr7wr             Container started
+4m29s       Normal    Created                 pod/pairs-parts-8-xr7wr             Container created
+4m29s       Normal    Started                 pod/pairs-parts-11-mc2hj            Container started
+4m25s       Normal    Completed               job/pairs-parts                     Job completed
+3m40s       Normal    Scheduled               pod/pairs-merge-jzv57               Successfully assigned lab/pairs-merge-jzv57 to minikube
+3m40s       Normal    SuccessfulCreate        job/pairs-merge                     Created pod: pairs-merge-jzv57
+3m39s       Normal    Pulled                  pod/pairs-merge-jzv57               Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+3m39s       Normal    Created                 pod/pairs-merge-jzv57               Container created
+3m39s       Normal    Started                 pod/pairs-merge-jzv57               Container started
+3m37s       Normal    Completed               job/pairs-merge                     Job completed
+2m8s        Normal    Created                 pod/cpu-a                           Container created
+2m8s        Normal    Started                 pod/cpu-a                           Container started
+2m8s        Warning   FailedScheduling        pod/cpu-b                           0/1 nodes are available: 1 Insufficient cpu. preemption: 0/1 nodes are available: 1 No preemption victims found for incoming pod.
+2m8s        Normal    Pulled                  pod/cpu-a                           Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+2m8s        Normal    Scheduled               pod/cpu-a                           Successfully assigned lab/cpu-a to minikube
+113s        Normal    Killing                 pod/cpu-a                           Stopping container sleeper
+111s        Normal    Scheduled               pod/cpu-b                           Successfully assigned lab/cpu-b to minikube
+111s        Normal    Pulled                  pod/cpu-b                           Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+111s        Normal    Created                 pod/cpu-b                           Container created
+111s        Normal    Started                 pod/cpu-b                           Container started
+57s         Normal    Killing                 pod/cpu-b                           Stopping container sleeper
+54s         Normal    Created                 pod/low-prio-58db7cc688-rbx2c       Container created
+54s         Normal    Scheduled               pod/low-prio-58db7cc688-rbx2c       Successfully assigned lab/low-prio-58db7cc688-rbx2c to minikube
+54s         Normal    Pulled                  pod/low-prio-58db7cc688-jm7jz       Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+54s         Normal    Scheduled               pod/low-prio-58db7cc688-jm7jz       Successfully assigned lab/low-prio-58db7cc688-jm7jz to minikube
+54s         Normal    ScalingReplicaSet       deployment/low-prio                 Scaled up replica set low-prio-58db7cc688 from 0 to 2
+54s         Normal    SuccessfulCreate        replicaset/low-prio-58db7cc688      Created pod: low-prio-58db7cc688-jm7jz
+54s         Normal    SuccessfulCreate        replicaset/low-prio-58db7cc688      Created pod: low-prio-58db7cc688-rbx2c
+54s         Normal    Started                 pod/low-prio-58db7cc688-rbx2c       Container started
+54s         Normal    Pulled                  pod/low-prio-58db7cc688-rbx2c       Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+54s         Normal    Created                 pod/low-prio-58db7cc688-jm7jz       Container created
+54s         Normal    Started                 pod/low-prio-58db7cc688-jm7jz       Container started
+37s         Warning   FailedScheduling        pod/high-prio                       0/1 nodes are available: 1 Insufficient cpu. preemption: found a potential placement for pod on node minikube, preempting 1 victims
+37s         Normal    Killing                 pod/low-prio-58db7cc688-jm7jz       Stopping container sleeper
+37s         Normal    Preempted               pod/low-prio-58db7cc688-jm7jz       Preempted by pod 47c1ec9b-e641-451e-9a06-e6a80146b389 on node minikube
+37s         Normal    SuccessfulCreate        replicaset/low-prio-58db7cc688      Created pod: low-prio-58db7cc688-8mkxl
+35s         Normal    Scheduled               pod/high-prio                       Successfully assigned lab/high-prio to minikube
+35s         Warning   FailedScheduling        pod/low-prio-58db7cc688-8mkxl       0/1 nodes are available: 1 Insufficient cpu. preemption: 0/1 nodes are available: 1 Insufficient cpu.
+34s         Normal    Pulled                  pod/high-prio                       Container image "hh-pairs:1.0" already present on machine and can be accessed by the pod
+34s         Normal    Created                 pod/high-prio                       Container created
+34s         Normal    Started                 pod/high-prio                       Container started
